@@ -6,7 +6,7 @@
 body {
 /*background-color: rgb(0,0,0,);*/
 background: yellow;
-/*mox, webkit, and o-linear are all different browsers so mox is firefox, webkit is chrome and idk oliner*/
+/*mox, webkit, and o-linear are all different browsers so mox is firefox, webkit is chrome and o-linear is opera*/
 background: -moz-linear-gradient(left, red 0%, yellow 100%);
 background: -webkit-linear-gradient(left, red 0%, yellow 100%);
 background: -o-linear-gradient(left, red 0%, yellow 100%);
@@ -49,7 +49,7 @@ background-color:SlateGrey;
 /* Defining a style for a set of tags not separated by commas applies the style
 only to all tags within the preceding tag*/
 #banner h1 {
-color: white;
+color: rgb(0, 0, 0);
 }
 /* Advanced Web design relies on class or ID styles, never tables */
 /* we use .box because in html we used class */
